@@ -1,0 +1,9 @@
+{
+    "QCustomCheckBox1": {
+        "bgColor": "#8A9EA0",
+        "circleColor": "#08313A",
+        "activeColor": "#517E64",
+        "animationEasingCurve": "InOutCubic",
+        "animationDuration": 500
+    }
+}
