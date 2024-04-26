@@ -1,0 +1,43 @@
+2024-04-22 10:36:02,251 - DEBUG - Generated new state 2QgXcKulDrzEVTXLtNAb4BAHunhu0a.
+2024-04-22 10:36:38,573 - INFO - "GET /?state=2QgXcKulDrzEVTXLtNAb4BAHunhu0a&code=4/0AeaYSHBklFHmLQNxSlEr395CDH30bccrBb_UHOPSS45df8-PbI-ukStjGfUwmI6ribU8Wg&scope=https://www.googleapis.com/auth/drive HTTP/1.1" 200 65
+2024-04-22 10:36:38,573 - DEBUG - Encoding `client_id` "400646716572-c8rjm6pfmkrq50n3hqhnno5envnquh9q.apps.googleusercontent.com" with `client_secret` as Basic auth credentials.
+2024-04-22 10:36:38,575 - DEBUG - Requesting url https://oauth2.googleapis.com/token using method POST.
+2024-04-22 10:36:38,575 - DEBUG - Supplying headers {'Accept': 'application/json', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'} and data {'grant_type': 'authorization_code', 'code': '4/0AeaYSHBklFHmLQNxSlEr395CDH30bccrBb_UHOPSS45df8-PbI-ukStjGfUwmI6ribU8Wg', 'redirect_uri': 'http://localhost:59528/'}
+2024-04-22 10:36:38,575 - DEBUG - Passing through key word arguments {'timeout': None, 'auth': <requests.auth.HTTPBasicAuth object at 0x000001F0BE376240>, 'verify': True, 'proxies': None, 'cert': None}.
+2024-04-22 10:36:38,584 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-04-22 10:36:41,200 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-04-22 10:36:41,203 - DEBUG - Request to fetch token completed with status 200.
+2024-04-22 10:36:41,203 - DEBUG - Request url was https://oauth2.googleapis.com/token
+2024-04-22 10:36:41,203 - DEBUG - Request headers were {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Content-Length': '157', 'Authorization': 'Basic NDAwNjQ2NzE2NTcyLWM4cmptNnBmbWtycTUwbjNocWhubm81ZW52bnF1aDlxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tOkdPQ1NQWC05cW1UWi03QzFGcUc1OUJXTXltUEFadGZyd0lN'}
+2024-04-22 10:36:41,203 - DEBUG - Request body was grant_type=authorization_code&code=4%2F0AeaYSHBklFHmLQNxSlEr395CDH30bccrBb_UHOPSS45df8-PbI-ukStjGfUwmI6ribU8Wg&redirect_uri=http%3A%2F%2Flocalhost%3A59528%2F
+2024-04-22 10:36:41,204 - DEBUG - Response headers were {'Expires': 'Mon, 01 Jan 1990 00:00:00 GMT', 'Cache-Control': 'no-cache, no-store, max-age=0, must-revalidate', 'Date': 'Mon, 22 Apr 2024 05:06:40 GMT', 'Pragma': 'no-cache', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Origin, X-Origin, Referer', 'Content-Encoding': 'gzip', 'Server': 'scaffolding on HTTPServer2', 'X-XSS-Protection': '0', 'X-Frame-Options': 'SAMEORIGIN', 'X-Content-Type-Options': 'nosniff', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked'} and content {
+  "access_token": "ya29.a0Ad52N3-yR_ywE53S7g0LkBA7HOGw05vGHhoaPisjkTKuGA0RjzbI5WJBWrzyZWcVJmXwjyJP51EQ27DzuFsNVSkFcAVZVG3hLKBEldqonQQ9h6Q0kh2WZfOJWoACH7rwCxSAvRyZy-8HYcOBxveA8si0Bxx2I1-3pyk9aCgYKASASARISFQHGX2Mi8v9mWv8HPNdIyaVATJ5fag0171",
+  "expires_in": 3599,
+  "refresh_token": "1//0gCwjz5p5f0BQCgYIARAAGBASNwF-L9IrNwhDx7gAJNZqrORmTI5ckamo-xzU34YefygHC2cKG0QZteqjo6xcT4GiCDOx2Ek3ltg",
+  "scope": "https://www.googleapis.com/auth/drive",
+  "token_type": "Bearer"
+}.
+2024-04-22 10:36:41,204 - DEBUG - Invoking 0 token response hooks.
+2024-04-22 10:36:41,204 - DEBUG - Obtained token {'access_token': 'ya29.a0Ad52N3-yR_ywE53S7g0LkBA7HOGw05vGHhoaPisjkTKuGA0RjzbI5WJBWrzyZWcVJmXwjyJP51EQ27DzuFsNVSkFcAVZVG3hLKBEldqonQQ9h6Q0kh2WZfOJWoACH7rwCxSAvRyZy-8HYcOBxveA8si0Bxx2I1-3pyk9aCgYKASASARISFQHGX2Mi8v9mWv8HPNdIyaVATJ5fag0171', 'expires_in': 3599, 'refresh_token': '1//0gCwjz5p5f0BQCgYIARAAGBASNwF-L9IrNwhDx7gAJNZqrORmTI5ckamo-xzU34YefygHC2cKG0QZteqjo6xcT4GiCDOx2Ek3ltg', 'scope': ['https://www.googleapis.com/auth/drive'], 'token_type': 'Bearer', 'expires_at': 1713766000.204496}.
+2024-04-22 10:36:41,217 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-22 10:36:41,262 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-22 10:53:32,056 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-22 10:53:32,056 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-22 11:54:52,085 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2024-04-22 11:54:52,085 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-04-22 11:54:52,634 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-04-22 11:54:52,662 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-22 11:54:52,666 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-22 11:59:50,271 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-22 11:59:50,271 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-22 12:05:41,554 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-22 12:05:41,554 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-22 12:08:11,556 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-22 12:08:11,572 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-22 12:11:50,760 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-22 12:11:50,760 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-26 15:24:33,709 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2024-04-26 15:24:33,725 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-04-26 15:24:34,170 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-04-26 15:24:34,182 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-26 15:24:34,185 - INFO - file_cache is only supported with oauth2client<4.0.0
