@@ -1,0 +1,325 @@
+2024-04-23 13:34:18,136 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-23 13:34:18,138 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-23 13:34:18,357 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-23 13:38:56,839 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-23 13:38:56,843 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-23 13:38:57,091 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-23 13:44:54,269 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-23 13:44:54,271 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-23 13:44:54,558 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-23 14:18:00,202 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-23 14:18:00,204 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-23 14:18:00,454 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-23 14:23:07,463 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-23 14:23:07,466 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-23 14:23:07,700 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-23 14:35:04,625 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-23 14:35:04,625 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-23 14:35:04,814 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-23 14:41:55,388 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-23 14:41:55,403 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-23 14:41:55,591 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-23 14:45:00,159 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-23 14:45:00,162 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-23 14:45:00,375 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-24 00:54:57,496 - DEBUG - Generated new state YXXAUg9zQiccWwAOXCjXQmXDR7yQST.
+2024-04-24 01:00:05,668 - INFO - "GET /?state=YXXAUg9zQiccWwAOXCjXQmXDR7yQST&code=4/0AeaYSHDlIX7IfyZ68RCCOMAZHU0Ik9Zq9q1tuYplucXac-SnuPqQmiGZ4Ukpe4K8HfAzQA&scope=https://www.googleapis.com/auth/drive HTTP/1.1" 200 65
+2024-04-24 01:00:05,670 - DEBUG - Encoding `client_id` "400646716572-c8rjm6pfmkrq50n3hqhnno5envnquh9q.apps.googleusercontent.com" with `client_secret` as Basic auth credentials.
+2024-04-24 01:00:05,673 - DEBUG - Requesting url https://oauth2.googleapis.com/token using method POST.
+2024-04-24 01:00:05,673 - DEBUG - Supplying headers {'Accept': 'application/json', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'} and data {'grant_type': 'authorization_code', 'code': '4/0AeaYSHDlIX7IfyZ68RCCOMAZHU0Ik9Zq9q1tuYplucXac-SnuPqQmiGZ4Ukpe4K8HfAzQA', 'redirect_uri': 'http://localhost:59336/'}
+2024-04-24 01:00:05,673 - DEBUG - Passing through key word arguments {'timeout': None, 'auth': <requests.auth.HTTPBasicAuth object at 0x000001F1790EC080>, 'verify': True, 'proxies': None, 'cert': None}.
+2024-04-24 01:00:05,679 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-04-24 01:00:06,276 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-04-24 01:00:06,288 - DEBUG - Request to fetch token completed with status 200.
+2024-04-24 01:00:06,289 - DEBUG - Request url was https://oauth2.googleapis.com/token
+2024-04-24 01:00:06,289 - DEBUG - Request headers were {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Content-Length': '157', 'Authorization': 'Basic NDAwNjQ2NzE2NTcyLWM4cmptNnBmbWtycTUwbjNocWhubm81ZW52bnF1aDlxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tOkdPQ1NQWC05cW1UWi03QzFGcUc1OUJXTXltUEFadGZyd0lN'}
+2024-04-24 01:00:06,289 - DEBUG - Request body was grant_type=authorization_code&code=4%2F0AeaYSHDlIX7IfyZ68RCCOMAZHU0Ik9Zq9q1tuYplucXac-SnuPqQmiGZ4Ukpe4K8HfAzQA&redirect_uri=http%3A%2F%2Flocalhost%3A59336%2F
+2024-04-24 01:00:06,289 - DEBUG - Response headers were {'Date': 'Tue, 23 Apr 2024 19:30:05 GMT', 'Cache-Control': 'no-cache, no-store, max-age=0, must-revalidate', 'Pragma': 'no-cache', 'Expires': 'Mon, 01 Jan 1990 00:00:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Origin, X-Origin, Referer', 'Content-Encoding': 'gzip', 'Server': 'scaffolding on HTTPServer2', 'X-XSS-Protection': '0', 'X-Frame-Options': 'SAMEORIGIN', 'X-Content-Type-Options': 'nosniff', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked'} and content {
+  "access_token": "ya29.a0Ad52N38o4L2VX-LGrLJCjVWHBhSn_DYYOfNuSlq5n-zZkMdqRnrvNSjkSUSxLIAieIpTmmpFpl_hss5MLPe9ygj2HxhLyJRBYyppMH-0-hmEIExCnHykb9SL_GkKgxJwiJw6NF1GgXkWeBSSvHCitKiVFG4zg3VXFxgwaCgYKAbsSARISFQHGX2MinEp6gXHkuwpgO5e-X2FKfQ0171",
+  "expires_in": 3599,
+  "refresh_token": "1//0gJ9pj4Z0hFziCgYIARAAGBASNwF-L9IrCwth0zq9I9xMHy4kGg7H-HC1C9uO8D7JDnt2FbWIs2k16gdiCioHyA0crjXXY7UB2X0",
+  "scope": "https://www.googleapis.com/auth/drive",
+  "token_type": "Bearer"
+}.
+2024-04-24 01:00:06,289 - DEBUG - Invoking 0 token response hooks.
+2024-04-24 01:00:06,289 - DEBUG - Obtained token {'access_token': 'ya29.a0Ad52N38o4L2VX-LGrLJCjVWHBhSn_DYYOfNuSlq5n-zZkMdqRnrvNSjkSUSxLIAieIpTmmpFpl_hss5MLPe9ygj2HxhLyJRBYyppMH-0-hmEIExCnHykb9SL_GkKgxJwiJw6NF1GgXkWeBSSvHCitKiVFG4zg3VXFxgwaCgYKAbsSARISFQHGX2MinEp6gXHkuwpgO5e-X2FKfQ0171', 'expires_in': 3599, 'refresh_token': '1//0gJ9pj4Z0hFziCgYIARAAGBASNwF-L9IrCwth0zq9I9xMHy4kGg7H-HC1C9uO8D7JDnt2FbWIs2k16gdiCioHyA0crjXXY7UB2X0', 'scope': ['https://www.googleapis.com/auth/drive'], 'token_type': 'Bearer', 'expires_at': 1713904205.289255}.
+2024-04-24 01:00:06,297 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 01:00:06,321 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27Syllabus+for+IA2+%281%29.doc%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 01:22:02,612 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 01:22:02,612 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%274.Sample+Report.pdf%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 01:25:07,198 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 01:25:07,198 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27pagess.jpg%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 01:29:26,946 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 01:29:26,951 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27pagess.jpg%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 01:29:27,744 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1mU--VNefj2A56P69JrxGNc6Wmzpo26bT?
+2024-04-24 01:50:41,992 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 01:50:42,007 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27SampleReport.pdf%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 01:50:43,247 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/18D6SDZIMNr3J_03QRVb2sfC4aQwbpYx4?
+2024-04-24 02:01:02,686 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2024-04-24 02:01:02,691 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-04-24 02:01:03,169 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-04-24 02:01:03,181 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 02:01:03,186 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=mimeType+%3D+%27application%2Fvnd.google-apps.folder%27+and+name+%3D+%27Saved+Pictures%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 02:01:04,047 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/11b8W4ADSikVqUxbd43nGWSqqF4NfNoGa?
+2024-04-24 02:05:38,433 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 02:05:38,449 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27SampleReport.pdf%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 02:05:39,266 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=mimeType+%3D+%27application%2Fvnd.google-apps.folder%27+and+name+%3D+%27Saved+Pictures%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 02:09:02,154 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 02:09:02,154 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27SampleReport.pdf%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 02:09:03,005 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=mimeType+%3D+%27application%2Fvnd.google-apps.folder%27+and+name+%3D+%27Saved+Pictures%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 02:16:02,082 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 02:16:02,098 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27SampleReport.pdf%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 02:16:03,087 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=mimeType+%3D+%27application%2Fvnd.google-apps.folder%27+and+name+%3D+%27Saved+Pictures%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 02:27:08,078 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 02:27:08,094 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27backup_logo-removebg-preview.png%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 02:27:09,533 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27original-5bd43a0dda5cf7c60b8e285e1bf20d8f.mp4%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 02:27:10,458 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27SampleReport.pdf%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 02:27:10,966 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27Syllabus+for+IA2+%281%29.doc%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 02:29:09,745 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 02:29:09,792 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 02:29:13,164 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 02:29:15,784 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 02:29:17,931 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 02:29:19,886 - DEBUG - URL being requested: POST https://www.googleapis.com/drive/v3/files?fields=id&alt=json
+2024-04-24 02:29:20,739 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 02:29:24,164 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 02:29:26,060 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 02:29:29,641 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 02:29:34,662 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 02:33:08,475 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 02:33:08,508 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27backup_logo-removebg-preview.png%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 02:33:09,909 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1RNnEmf9RoAaFaHxUJCRg2fN9RRe8seQ2?
+2024-04-24 02:33:10,691 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27original-5bd43a0dda5cf7c60b8e285e1bf20d8f.mp4%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 02:33:11,259 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1XnT195ZsP_Egi2v563pfKqInVDomcV1Y?
+2024-04-24 02:33:11,894 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27SampleReport.pdf%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 02:33:12,417 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1fzgfx3GkYKWgHZ4K_BTu7nvWZ_FjOigk?
+2024-04-24 02:33:13,156 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27Syllabus+for+IA2+%281%29.doc%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 02:33:13,696 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1uf37YlYRspQ4Sg9nPqAT4pDZhEEhYJDF?
+2024-04-24 02:33:14,405 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=mimeType+%3D+%27application%2Fvnd.google-apps.folder%27+and+name+%3D+%27Saved+Pictures%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 02:33:14,931 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1dRhu10v9ou26pnZuj0WnPrc3kIsjm8gp?
+2024-04-24 04:06:46,593 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2024-04-24 04:06:46,593 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-04-24 04:06:47,099 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-04-24 04:06:47,122 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:06:47,144 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:06:50,171 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:06:52,563 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:06:54,673 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:08:06,535 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:08:06,542 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27backup_logo-removebg-preview.png%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 04:08:07,370 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1BVmU43fhcYh7qmGaXJctRKQuc7WgeS7F?
+2024-04-24 04:08:08,740 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27original-5bd43a0dda5cf7c60b8e285e1bf20d8f.mp4%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 04:08:09,828 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/12rtY4mxfyjnL0NQm8yTPaR0hyr1lWmoB?
+2024-04-24 04:08:10,455 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27SampleReport.pdf%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 04:08:10,988 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1XHlMATvg2t6ir9p6v0DiWdRwJoT3z6sR?
+2024-04-24 04:08:11,644 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27Syllabus+for+IA2+%281%29.doc%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 04:08:12,170 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1OkkpLQCgWdOjlemaZoJE1xGRWDzAvUCM?
+2024-04-24 04:09:09,501 - DEBUG - Generated new state labjWnYFmP1i4LoHEUkgTfLM1MEO9d.
+2024-04-24 04:09:37,534 - INFO - "GET /?state=labjWnYFmP1i4LoHEUkgTfLM1MEO9d&code=4/0AeaYSHAzT0F0VVECVVXhmwzS_62DaszyF8lDNb0NDnIkkcMkMJ9DsXA0Tg3v9n0dEWAwyw&scope=https://www.googleapis.com/auth/drive HTTP/1.1" 200 65
+2024-04-24 04:09:37,535 - DEBUG - Encoding `client_id` "400646716572-c8rjm6pfmkrq50n3hqhnno5envnquh9q.apps.googleusercontent.com" with `client_secret` as Basic auth credentials.
+2024-04-24 04:09:37,535 - DEBUG - Requesting url https://oauth2.googleapis.com/token using method POST.
+2024-04-24 04:09:37,535 - DEBUG - Supplying headers {'Accept': 'application/json', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'} and data {'grant_type': 'authorization_code', 'code': '4/0AeaYSHAzT0F0VVECVVXhmwzS_62DaszyF8lDNb0NDnIkkcMkMJ9DsXA0Tg3v9n0dEWAwyw', 'redirect_uri': 'http://localhost:64387/'}
+2024-04-24 04:09:37,535 - DEBUG - Passing through key word arguments {'timeout': None, 'auth': <requests.auth.HTTPBasicAuth object at 0x000001414649C080>, 'verify': True, 'proxies': None, 'cert': None}.
+2024-04-24 04:09:37,540 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-04-24 04:09:38,095 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-04-24 04:09:38,099 - DEBUG - Request to fetch token completed with status 200.
+2024-04-24 04:09:38,100 - DEBUG - Request url was https://oauth2.googleapis.com/token
+2024-04-24 04:09:38,100 - DEBUG - Request headers were {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'Content-Length': '157', 'Authorization': 'Basic NDAwNjQ2NzE2NTcyLWM4cmptNnBmbWtycTUwbjNocWhubm81ZW52bnF1aDlxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tOkdPQ1NQWC1VVmt4UFJvZnJDeGtNNEQ2UGlzemhxOF9kVjlr'}
+2024-04-24 04:09:38,100 - DEBUG - Request body was grant_type=authorization_code&code=4%2F0AeaYSHAzT0F0VVECVVXhmwzS_62DaszyF8lDNb0NDnIkkcMkMJ9DsXA0Tg3v9n0dEWAwyw&redirect_uri=http%3A%2F%2Flocalhost%3A64387%2F
+2024-04-24 04:09:38,100 - DEBUG - Response headers were {'Expires': 'Mon, 01 Jan 1990 00:00:00 GMT', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache, no-store, max-age=0, must-revalidate', 'Date': 'Tue, 23 Apr 2024 22:39:38 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Origin, X-Origin, Referer', 'Content-Encoding': 'gzip', 'Server': 'scaffolding on HTTPServer2', 'X-XSS-Protection': '0', 'X-Frame-Options': 'SAMEORIGIN', 'X-Content-Type-Options': 'nosniff', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked'} and content {
+  "access_token": "ya29.a0Ad52N38Yy9uRUYINNnMUTnxJxknK-sQkczo7Qgi8Ja0Jq2fvi4kMOvAot2V2G1yTDxgRac5sjk7SKFqgWNfgk_i1GMTu469sXRpWx8q73BK637Sy2YhfKCl60K0RSa_9_HlSL1J9ZulSpycvwanENP4i25y5mAY_an-DaCgYKAfsSARISFQHGX2Mi9zb5-mIHfomZy8f1fRaKQQ0171",
+  "expires_in": 3599,
+  "refresh_token": "1//0g27qxz9REKKVCgYIARAAGBASNwF-L9IrtX2NSQgJEzf_YuEOjmvnAxYfCUj0PerxstJDHTF9DmAGFNXgm95XLMDpm-NHQ502kVs",
+  "scope": "https://www.googleapis.com/auth/drive",
+  "token_type": "Bearer"
+}.
+2024-04-24 04:09:38,100 - DEBUG - Invoking 0 token response hooks.
+2024-04-24 04:09:38,100 - DEBUG - Obtained token {'access_token': 'ya29.a0Ad52N38Yy9uRUYINNnMUTnxJxknK-sQkczo7Qgi8Ja0Jq2fvi4kMOvAot2V2G1yTDxgRac5sjk7SKFqgWNfgk_i1GMTu469sXRpWx8q73BK637Sy2YhfKCl60K0RSa_9_HlSL1J9ZulSpycvwanENP4i25y5mAY_an-DaCgYKAfsSARISFQHGX2Mi9zb5-mIHfomZy8f1fRaKQQ0171', 'expires_in': 3599, 'refresh_token': '1//0g27qxz9REKKVCgYIARAAGBASNwF-L9IrtX2NSQgJEzf_YuEOjmvnAxYfCUj0PerxstJDHTF9DmAGFNXgm95XLMDpm-NHQ502kVs', 'scope': ['https://www.googleapis.com/auth/drive'], 'token_type': 'Bearer', 'expires_at': 1713915577.1005607}.
+2024-04-24 04:09:38,106 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:09:38,140 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:09:40,750 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:10:02,597 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:10:02,606 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27SampleReport.pdf%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 04:10:03,671 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1tVgbFLK6-KxOoBRA-7S72mVWJQ5RwydV?
+2024-04-24 04:10:04,522 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27Syllabus+for+IA2+%281%29.doc%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 04:10:05,337 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1g5kwkK77T0fW0PNcRwkhLTwcpHvwUwjT?
+2024-04-24 04:21:27,233 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:21:27,249 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:21:30,577 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:21:33,117 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:21:35,423 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:21:37,297 - DEBUG - URL being requested: POST https://www.googleapis.com/drive/v3/files?fields=id&alt=json
+2024-04-24 04:21:37,944 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:21:41,242 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:21:43,411 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:21:47,132 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:21:50,734 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:24:04,406 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:24:04,427 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27backup_logo-removebg-preview.png%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 04:24:05,292 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1j-0zdbbbRiPA8zEJrl6_rbsh1F83TEc-?
+2024-04-24 04:24:06,137 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27original-5bd43a0dda5cf7c60b8e285e1bf20d8f.mp4%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 04:24:06,682 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1An9DsFGHJYHMJxjLGEU-NzPjq34b3Dj1?
+2024-04-24 04:24:07,293 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27SampleReport.pdf%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 04:24:07,816 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/11eSm1pjJfK7tmYrrfWS6AZAatvzTIOTH?
+2024-04-24 04:24:08,618 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27Syllabus+for+IA2+%281%29.doc%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 04:24:09,134 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1hIHk8trT7k_sFzfJ738C21w2ew4P2PuD?
+2024-04-24 04:24:09,766 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=mimeType+%3D+%27application%2Fvnd.google-apps.folder%27+and+name+%3D+%27Saved+Pictures%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-24 04:24:10,315 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/13w1lOU7-0fPVlz4khLSJZsrfXq1FfqlV?
+2024-04-24 04:27:00,971 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:00,971 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:01,922 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:01,929 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:01,932 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:01,932 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:01,932 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:01,933 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:01,933 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:01,945 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:01,948 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:01,951 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:01,963 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:01,965 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:01,985 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:01,966 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:02,000 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:01,974 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:02,535 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:02,535 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:02,544 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:02,549 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:02,610 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:02,611 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:02,617 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:02,625 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:02,843 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:02,843 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:02,843 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:02,855 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:02,860 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:02,865 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:02,960 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:02,967 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:03,106 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:03,113 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:03,295 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:03,302 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:03,460 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:03,467 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:03,469 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:03,477 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:03,558 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:03,566 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:03,696 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:03,703 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:03,704 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:03,711 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:03,954 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:03,962 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:04,065 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:04,065 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:04,065 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-24 04:27:04,075 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:04,080 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:04,085 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-24 04:27:07,670 - WARNING - Encountered 403 Forbidden with reason "userRateLimitExceeded"
+2024-04-24 04:27:07,670 - WARNING - Encountered 403 Forbidden with reason "userRateLimitExceeded"
+2024-04-24 04:27:07,685 - WARNING - Encountered 403 Forbidden with reason "userRateLimitExceeded"
+2024-04-24 04:27:07,689 - WARNING - Encountered 403 Forbidden with reason "userRateLimitExceeded"
+2024-04-26 13:16:01,603 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2024-04-26 13:16:01,608 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-04-26 13:16:02,123 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-04-26 13:16:02,134 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-26 13:16:02,204 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 13:17:04,858 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-26 13:17:04,873 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27SampleReport.pdf%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-26 13:17:06,070 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1ChNG2z1TWwu8IrSz_a9B9bFBLdThZvms?
+2024-04-26 13:22:17,430 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-26 13:22:17,440 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-26 13:22:17,722 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-26 13:25:33,266 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-26 13:25:33,270 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-26 13:25:33,705 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-26 13:32:05,774 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-26 13:32:05,806 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 13:33:08,762 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-26 13:33:08,762 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27backup_logo-removebg-preview.png%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-26 13:33:09,575 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1PLkFvV7lW13EVVohBqlK0ThVe9pcqfhD?
+2024-04-26 13:41:29,528 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-26 13:41:29,535 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-26 13:41:29,804 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-26 14:35:12,465 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-26 14:35:12,465 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-26 14:35:12,730 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-26 15:28:09,302 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-26 15:28:09,302 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-26 15:28:09,553 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-26 17:46:55,749 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-26 17:46:55,757 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-26 17:46:56,055 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-26 18:12:45,818 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-26 18:12:45,818 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-26 18:12:46,096 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-26 18:37:40,211 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2024-04-26 18:37:40,211 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-04-26 18:37:40,893 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-04-26 18:37:40,909 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-26 18:37:40,909 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27backup_logo-removebg-preview.png%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-26 18:37:41,759 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27original-5bd43a0dda5cf7c60b8e285e1bf20d8f.mp4%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-26 18:37:42,333 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27SampleReport.pdf%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-26 18:37:42,822 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27Syllabus+for+IA2+%281%29.doc%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-26 18:37:43,441 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1D2sVzuhO3n8HEX17JCB_vzt71bWu5gn2?
+2024-04-26 18:39:14,195 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-26 18:39:14,260 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 18:39:17,582 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 18:39:17,603 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-26 18:39:17,605 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-26 18:39:17,614 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 18:39:17,617 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 18:39:17,617 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-26 18:39:17,627 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-26 18:39:17,633 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 18:39:17,641 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 18:39:20,493 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 18:39:20,725 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 18:39:21,015 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 18:39:21,238 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 18:39:21,710 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 18:39:22,663 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 18:39:23,550 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 18:39:23,816 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 18:39:24,395 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 18:39:25,919 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 18:39:25,935 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 18:39:26,566 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 18:39:28,432 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 18:39:30,458 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-04-26 18:42:25,170 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-04-26 18:42:25,195 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27backup_logo-removebg-preview.png%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-26 18:42:26,484 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1GeiY87eL0eeYTl7vApXVSjrifxSRnGGq?
+2024-04-26 18:42:27,196 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27original-5bd43a0dda5cf7c60b8e285e1bf20d8f.mp4%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-26 18:42:27,728 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1bpfEFPo8mmYZ2paV9wCnY4KSNYOJPOdS?
+2024-04-26 18:42:28,362 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27SampleReport.pdf%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-26 18:42:28,855 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1ihpertWrC-TKm9trKq_rDp-v3qeEvfxZ?
+2024-04-26 18:42:29,549 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27Syllabus+for+IA2+%281%29.doc%27&spaces=drive&fields=files%28id%29&alt=json
+2024-04-26 18:42:30,027 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1RtSUYgjBFRdBW1WtjRQ7gQ4V89sR0V0p?
+2024-04-27 00:16:30,384 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-27 00:16:30,387 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-27 00:16:30,646 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-27 00:47:49,745 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-27 00:47:49,761 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-27 00:47:50,007 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-27 00:50:47,147 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-27 00:50:47,147 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-27 00:50:47,365 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-27 01:06:08,251 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-27 01:06:08,251 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-27 01:06:08,580 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-27 01:16:26,953 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-27 01:16:26,953 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-27 01:16:27,173 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-27 01:43:05,960 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-27 01:43:05,976 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-27 01:43:06,242 - DEBUG - Loaded backend qtagg version 5.15.10.
+2024-04-27 01:56:23,929 - DEBUG - CACHEDIR=C:\Users\sanff\.matplotlib
+2024-04-27 01:56:23,929 - DEBUG - Using fontManager instance from C:\Users\sanff\.matplotlib\fontlist-v330.json
+2024-04-27 01:56:24,163 - DEBUG - Loaded backend qtagg version 5.15.10.

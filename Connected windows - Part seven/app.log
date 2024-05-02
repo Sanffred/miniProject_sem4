@@ -1,0 +1,47 @@
+matplotlib - DEBUG - matplotlib data path: C:\Users\sanff\AppData\Roaming\Python\Python312\site-packages\matplotlib\mpl-data
+matplotlib - DEBUG - CONFIGDIR=C:\Users\sanff\.matplotlib
+matplotlib - DEBUG - interactive is False
+matplotlib - DEBUG - platform is win32
+root - INFO - writing the schedule: C:\Users\sanff\Desktop\Connected windows - Part seven
+root - INFO - Path to upload_schedule.json: C:\Users\sanff\Desktop\Connected windows - Part seven\upload_schedule.json
+root - INFO - Current working directory: C:\Users\sanff\Desktop\Connected windows - Part seven
+root - INFO - writing the schedule: C:\Users\sanff\Desktop\Connected windows - Part seven
+root - INFO - Path to delete_schedule.json: C:\Users\sanff\Desktop\Connected windows - Part seven\delete_schedule.json
+root - INFO - Current working directory: C:\Users\sanff\Desktop\Connected windows - Part seven
+root - INFO - scheduler functions has been called  
+root - INFO - entered the scheduler loop function   
+root - INFO - entered the scheduler loop   
+root - INFO - reading the schedule: 
+root - INFO - Entered the check_and_execute() function .......... 
+root - INFO - entered the upload_files() function: 
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+root - INFO - Starting Google Drive upload...
+googleapiclient.discovery - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+googleapiclient.discovery - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+googleapiclient.discovery - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+googleapiclient.discovery - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+googleapiclient.discovery - DEBUG - URL being requested: POST https://www.googleapis.com/drive/v3/files?fields=id&alt=json
+googleapiclient.discovery - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+googleapiclient.discovery - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+googleapiclient.discovery - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+googleapiclient.discovery - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+googleapiclient.discovery - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+root - INFO - Upload completed successfully.
+root - INFO - reading the schedule: 
+root - INFO - Entered the check_and_execute() function .......... 
+root - INFO - entered the scheduler loop   
+root - INFO - reading the schedule: 
+root - INFO - Entered the check_and_execute() function .......... 
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+root - INFO - Starting Google Drive deletion...
+googleapiclient.discovery - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27backup_logo-removebg-preview.png%27&spaces=drive&fields=files%28id%29&alt=json
+googleapiclient.discovery - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1zX-K0hXfdnfBQ8ZYyUPIhvhbRAw0AmTs?
+googleapiclient.discovery - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27original-5bd43a0dda5cf7c60b8e285e1bf20d8f.mp4%27&spaces=drive&fields=files%28id%29&alt=json
+googleapiclient.discovery - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1g-oqjl_ObROhoE0r1lUb993agXHh6C_k?
+googleapiclient.discovery - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27SampleReport.pdf%27&spaces=drive&fields=files%28id%29&alt=json
+googleapiclient.discovery - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1SXGTaVNqotPcOBfRtfMVtkX161tuVGq0?
+googleapiclient.discovery - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name+%3D+%27Syllabus+for+IA2+%281%29.doc%27&spaces=drive&fields=files%28id%29&alt=json
+googleapiclient.discovery - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1ZvEj5dNLx1_HKNnyMpF3yzeqd7g-T184?
+googleapiclient.discovery - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=mimeType+%3D+%27application%2Fvnd.google-apps.folder%27+and+name+%3D+%27Saved+Pictures%27&spaces=drive&fields=files%28id%29&alt=json
+googleapiclient.discovery - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/17GezdjL1LFVkNkq2vPQWdL7p3MrGMh3y?
+root - INFO - Deletion completed successfully.
