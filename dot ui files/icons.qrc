@@ -1,0 +1,37 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/door-home-home-page-homepage-house-svgrepo-com.svg</file>
+    <file>icons/folder-svgrepo-com (1).svg</file>
+    <file>icons/folder-svgrepo-com.svg</file>
+    <file>icons/dropbox-color-svgrepo-com.svg</file>
+    <file>icons/google-drive-svgrepo-com.svg</file>
+    <file>icons/folder-add-svgrepo-com.svg</file>
+    <file>icons/folders2-svgrepo-com.svg</file>
+    <file>icons/add-file-svgrepo-com.svg</file>
+    <file>icons/safe-square-svgrepo-com (2).svg</file>
+    <file>icons/safe-square-svgrepo-com (1).svg</file>
+    <file>icons/settings-svgrepo-com (1).svg</file>
+    <file>icons/backup_logo-removebg-preview (1).png</file>
+    <file>icons/backup_logo-removebg-preview.png</file>
+    <file>icons/clock-svgrepo-com.svg</file>
+    <file>icons/close_btn_Final.svg</file>
+    <file>icons/close-circle-svgrepo-com (1).svg</file>
+    <file>icons/files.svg</file>
+    <file>icons/main safe.png</file>
+    <file>icons/main_safe2.png</file>
+    <file>icons/main_safe3.png</file>
+    <file>icons/main_safe4.png</file>
+    <file>icons/main_safe5.png</file>
+    <file>icons/main_safe6.png</file>
+    <file>icons/main_safe7.png</file>
+    <file>icons/menu_active.svg</file>
+    <file>icons/menu_active2.svg</file>
+    <file>icons/menu_active3.svg</file>
+    <file>icons/menu-svgrepo-com.svg</file>
+    <file>icons/minimize_btn.svg</file>
+    <file>icons/minimize_btn2.svg</file>
+    <file>icons/right_arrow_key.svg</file>
+    <file>icons/right_arrow_key_clicked.svg</file>
+    <file>icons/safe-svgrepo-com.svg</file>
+  </qresource>
+</RCC>
